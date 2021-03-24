@@ -19,8 +19,17 @@ export default createGlobalStyle`
 
   *, button, input {
     border: 0;
+    outline: none;
     background:  none;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   html {
