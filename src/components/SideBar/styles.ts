@@ -69,4 +69,8 @@ export const Body = styled.div`
 
   padding: 60px 24px 200px;
   margin-top: 4px;
+
+  > div + div {
+    margin-top: 16px;
+  }
 `;
