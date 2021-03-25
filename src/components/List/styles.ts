@@ -19,11 +19,11 @@ export const Item = styled.div`
   }
 
   &:last-child {
-    padding-top: 16px;
+    padding-bottom: 16px;
   }
 `;
 
 export const Title = styled.span`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 `;

@@ -22,7 +22,25 @@ const SideBar: React.FC = () => {
       <StickyBox>
         <Body>
           <List
-            title="Talves você curta"
+            title="O que está acontecendo"
+            elements={[
+              <News
+                heading="Assunto do Momento em Brasil"
+                title="#BigBrotherBrasil"
+              />,
+              <News
+                heading="Covid-19 • AO VIVO"
+                title="São Paulo: as últimas notícias sobre a pandemia"
+              />,
+              <News
+                heading="Música • AO VIVO"
+                title="Feliz aniversário, Elton John 🎂"
+              />,
+            ]}
+          />
+
+          <List
+            title="Quem seguir"
             elements={[
               <FollowSuggestion
                 name="Pedro Palhari"
@@ -43,18 +61,17 @@ const SideBar: React.FC = () => {
           />
 
           <List
-            title="O que está acontecendo"
-            elements={[<News />, <News />, <News />]}
-          />
-
-          <List
-            title="O que está acontecendo"
-            elements={[<News />, <News />, <News />]}
-          />
-
-          <List
-            title="O que está acontecendo"
-            elements={[<News />, <News />, <News />]}
+            title="Tópicos para seguir"
+            elements={[
+              <FollowSuggestion
+                name="Big Brother Brasil"
+                nickname="Reality show"
+              />,
+              <FollowSuggestion name="Pop" nickname="Gênero musical" />,
+              <FollowSuggestion name="Anime" nickname="Tudo sobre anime" />,
+              <FollowSuggestion name="Flamengo" nickname="Time de futebol" />,
+              <FollowSuggestion name="Futebol" nickname="Esporte" />,
+            ]}
           />
         </Body>
       </StickyBox>

@@ -11,6 +11,8 @@ const List: React.FC<Props> = ({ title, elements }) => {
     <Container>
       <Item>
         <Title>{title}</Title>
+      </Item>
+      <Item>
         {elements.map((element, index) => (
           <Item key={index}>{element}</Item>
         ))}

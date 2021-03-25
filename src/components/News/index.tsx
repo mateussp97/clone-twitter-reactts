@@ -1,12 +1,16 @@
 import React from "react";
-
 import { Container } from "./styles";
 
-const News: React.FC = () => {
+interface Props {
+  heading: string;
+  title: string;
+}
+
+const News: React.FC<Props> = ({ heading, title }) => {
   return (
     <Container>
-      <span>Assunto do momento no Brasil</span>
-      <strong>Bootcamp da Rocketseat</strong>
+      <span>{heading}</span>
+      <strong>{title}</strong>
     </Container>
   );
 };
