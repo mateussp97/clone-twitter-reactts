@@ -16,12 +16,7 @@ const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
-        <Avatar
-          src={
-            "https://avatars.githubusercontent.com/u/69378560?s=460&u=831bbebb1c4c52f9b9b28469b54acca7ed89c69b&v=4"
-          }
-          alt="Mateus de Souza"
-        />
+        <Avatar />
       </Banner>
       <ProfileData>
         <EditButton outlined>Editar perfil</EditButton>
