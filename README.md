@@ -2,7 +2,7 @@
 
 ## About the project
 
-Project developed in React with Typescript in order to develop best practices in building repetitive layouts with styled-components..
+Project developed in React with Typescript in order to develop best practices in building repetitive layouts with styled-components.
 
 ## Web Preview
 
